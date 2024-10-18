@@ -93,11 +93,10 @@ section.about-Me .title p {
 }
 
 .skills .images img {
-    margin-right: 6rem;
+    margin-right:4rem;
 }
 
 .skills .images {
-    margin-right: 3rem;
     animation-name: animateimg;
     animation-duration: 13s;
     animation-timing-function: cubic-bezier(0.18, 0.71, 0.46, -0.14);
@@ -327,7 +326,7 @@ section.Projects .projects-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: .5rem;
+    gap: .8rem;
 }
 
 #preloader div {
@@ -363,12 +362,17 @@ section.Projects .projects-container {
 
 
 
+
 @media (max-width:767px) {
     html {
-        font-size: 70%;
+        font-size: 55%;
     }
 
     .Home .Hadi img {
         width: 25rem;
+    }
+
+    section.skills .images img {
+        height: 5rem;
     }
 }
