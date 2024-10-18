@@ -375,4 +375,7 @@ section.Projects .projects-container {
     section.skills .images img {
         height: 5rem;
     }
+    .btn-1 {
+        padding: 8px 10px;
+    }
 }
