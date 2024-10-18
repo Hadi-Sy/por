@@ -310,7 +310,7 @@ section.Projects {
 section.Projects .projects-container {
     display: flex;
     flex-flow: row wrap;
-    gap: 1rem;
+    gap:2rem;
     justify-content: space-around;
     padding: 1rem;
 }
